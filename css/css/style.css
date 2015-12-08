@@ -1,0 +1,333 @@
+@font-face {
+  font-family: 'EtelkaMediumProRegular';
+  src: url("../../fonts/EtelkaMediumProRegular.eot");
+  src: url("../../fonts/EtelkaMediumProRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/EtelkaMediumProRegular.woff2") format("woff2"), url("../../fonts/EtelkaMediumProRegular.woff") format("woff"), url("../../fonts/EtelkaMediumProRegular.ttf") format("truetype"), url("../../fonts/EtelkaMediumProRegular.svg#bebas_neuebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'RobotoLight';
+  src: url("../../fonts/RobotoLight.eot");
+  src: url("../../fonts/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoLight.woff2") format("woff2"), url("../../fonts/RobotoLight.woff") format("woff"), url("../../fonts/RobotoLight.ttf") format("truetype"), url("../../fonts/RobotoLight.svg#bebas_neuebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url("../../fonts/RobotoMedium.eot");
+  src: url("../../fonts/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoMedium.woff2") format("woff2"), url("../../fonts/RobotoMedium.woff") format("woff"), url("../../fonts/RobotoMedium.ttf") format("truetype"), url("../../fonts/RobotoMedium.svg#bebas_neuebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("../../fonts/RobotoRegular.eot");
+  src: url("../../fonts/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoRegular.woff2") format("woff2"), url("../../fonts/RobotoRegular.woff") format("woff"), url("../../fonts/RobotoRegular.ttf") format("truetype"), url("../../fonts/RobotoRegular.svg#bebas_neuebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 4, ../sass/style.scss */
+button, input {
+  outline: none; }
+
+/* line 7, ../sass/style.scss */
+#right-content {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0; }
+
+/* line 12, ../sass/style.scss */
+.breadcrumb {
+  background: transparent;
+  padding: 15px 0px;
+  margin-bottom: 50px; }
+  @media screen and (max-width: 767px) {
+    /* line 12, ../sass/style.scss */
+    .breadcrumb {
+      margin-top: 30px; } }
+
+/* line 20, ../sass/style.scss */
+.breadcrumb > li + li:before {
+  content: "";
+  padding: 0; }
+
+/* line 25, ../sass/style.scss */
+.breadcrumb li {
+  margin-right: 15px; }
+  /* line 27, ../sass/style.scss */
+  .breadcrumb li a {
+    font: 14px "RobotoRegular";
+    color: #909699;
+    text-decoration: underline; }
+    /* line 31, ../sass/style.scss */
+    .breadcrumb li a:hover {
+      text-decoration: none;
+      color: #0f5fad; }
+/* line 37, ../sass/style.scss */
+.breadcrumb .active {
+  color: #0f5fad !important;
+  text-decoration: underline; }
+
+/* line 42, ../sass/style.scss */
+.report {
+  font: 14px "RobotoRegular";
+  margin-bottom: 100px; }
+  @media screen and (max-width: 767px) {
+    /* line 42, ../sass/style.scss */
+    .report {
+      margin-bottom: 0; } }
+
+/* line 49, ../sass/style.scss */
+.page-title {
+  font: 32px "EtelkaMediumProRegular";
+  color: #000;
+  margin-bottom: 0 !important; }
+
+/* line 55, ../sass/style.scss */
+.right-content-head h4 {
+  font: 21px "RobotoLight";
+  margin: 0 0 25px; }
+/* line 59, ../sass/style.scss */
+.right-content-head h3 {
+  font: 30px "EtelkaMediumProRegular";
+  margin: 0 0 20px; }
+/* line 63, ../sass/style.scss */
+.right-content-head ul {
+  margin: 0 0 25px 20px; }
+  /* line 65, ../sass/style.scss */
+  .right-content-head ul li {
+    margin-bottom: 20px;
+    font: 14px "RobotoRegular"; }
+/* line 70, ../sass/style.scss */
+.right-content-head p {
+  font: 14px "RobotoRegular";
+  margin-bottom: 25px; }
+
+/* line 76, ../sass/style.scss */
+.osno-doc h5 {
+  font: 16px "RobotoMedium"; }
+
+/* line 80, ../sass/style.scss */
+.osno-doc-view {
+  background: #DCEEF8;
+  padding: 25px 50px 25px 25px;
+  margin: 25px 0; }
+  @media screen and (max-width: 767px) {
+    /* line 80, ../sass/style.scss */
+    .osno-doc-view {
+      padding: 25px; } }
+  /* line 87, ../sass/style.scss */
+  .osno-doc-view div {
+    float: left; }
+    @media screen and (max-width: 767px) {
+      /* line 87, ../sass/style.scss */
+      .osno-doc-view div {
+        float: none;
+        text-align: center; } }
+  /* line 94, ../sass/style.scss */
+  .osno-doc-view p {
+    padding: 40px 0 0 200px;
+    font: 14px "RobotoRegular";
+    font-weight: 600; }
+    @media screen and (max-width: 767px) {
+      /* line 94, ../sass/style.scss */
+      .osno-doc-view p {
+        padding: 25px 0 0 10px;
+        text-align: justify; } }
+  /* line 103, ../sass/style.scss */
+  .osno-doc-view ul {
+    padding-left: 200px; }
+    @media screen and (max-width: 767px) {
+      /* line 103, ../sass/style.scss */
+      .osno-doc-view ul {
+        padding: 25px 0 0 10px; } }
+    /* line 108, ../sass/style.scss */
+    .osno-doc-view ul li {
+      font: 14px "RobotoRegular";
+      font-weight: 600;
+      margin-bottom: 5px; }
+      @media screen and (max-width: 767px) {
+        /* line 108, ../sass/style.scss */
+        .osno-doc-view ul li {
+          text-align: justify; } }
+      /* line 115, ../sass/style.scss */
+      .osno-doc-view ul li:last-child {
+        margin-bottom: 0; }
+
+/* line 122, ../sass/style.scss */
+.el-report-lease .right-content-foot {
+  margin-bottom: 80px;
+  border-bottom: none;
+  border-top: 1px solid #000 !important; }
+
+/* line 128, ../sass/style.scss */
+.osno-include {
+  background: #DCEEF8;
+  padding: 20px 40px;
+  margin-bottom: 20px; }
+  /* line 132, ../sass/style.scss */
+  .osno-include h5 {
+    font: 16px "RobotoMedium";
+    margin-bottom: 25px; }
+  /* line 136, ../sass/style.scss */
+  .osno-include ul {
+    list-style: none; }
+    /* line 138, ../sass/style.scss */
+    .osno-include ul li {
+      font: 14px "RobotoMedium";
+      position: relative;
+      margin-bottom: 20px;
+      padding-left: 40px; }
+      /* line 143, ../sass/style.scss */
+      .osno-include ul li:before {
+        content: "";
+        display: block;
+        background: url(../../images/EO_TZ-7_03.png) no-repeat;
+        width: 100%;
+        height: 31px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+    /* line 154, ../sass/style.scss */
+    .osno-include ul .nds {
+      margin-bottom: 45px; }
+
+/* line 161, ../sass/style.scss */
+.el-report .right-content-foot {
+  border-top: none; }
+
+/* line 166, ../sass/style.scss */
+.right-content-foot {
+  padding: 30px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000; }
+  /* line 170, ../sass/style.scss */
+  .right-content-foot p {
+    font: 14px "RobotoRegular";
+    padding-left: 110px;
+    margin: 0; }
+
+/* line 177, ../sass/style.scss */
+.star {
+  background: url(../../images/EO_TZ-7_17.png) no-repeat left 15px center; }
+
+/* line 180, ../sass/style.scss */
+.inform {
+  background: url(../../images/EO_TZ-4_12.png) no-repeat left 15px center; }
+
+/* line 184, ../sass/style.scss */
+.warn {
+  background: url(../../images/EO_TZ-4_11.png) no-repeat left 15px center; }
+
+/* line 187, ../sass/style.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+/* line 191, ../sass/style.scss */
+.el-types {
+  background: #DCEEF8;
+  padding: 20px 30px 40px; }
+  @media screen and (max-width: 992px) {
+    /* line 191, ../sass/style.scss */
+    .el-types {
+      padding-bottom: 20px; } }
+  /* line 196, ../sass/style.scss */
+  .el-types h4 {
+    font: 20px "RobotoMedium";
+    margin-bottom: 10px;
+    text-align: center; }
+  /* line 201, ../sass/style.scss */
+  .el-types .title {
+    margin-bottom: 25px; }
+  /* line 204, ../sass/style.scss */
+  .el-types div {
+    font: 16px "RobotoMedium";
+    margin-bottom: 25px; }
+    @media screen and (max-width: 992px) {
+      /* line 204, ../sass/style.scss */
+      .el-types div {
+        text-align: center; } }
+  /* line 211, ../sass/style.scss */
+  .el-types figcaption {
+    text-align: justify; }
+
+@media screen and (max-width: 767px) {
+  /* line 216, ../sass/style.scss */
+  .el-types-item {
+    margin-bottom: 30px; } }
+
+/* line 222, ../sass/style.scss */
+.more-info p {
+  padding: 25px 0; }
+
+/*Modal feedback*/
+/* line 228, ../sass/style.scss */
+.order {
+  display: table;
+  margin: auto;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  font: 18px "RobotoRegular";
+  padding: 10px 50px;
+  border-radius: 16px; }
+  /* line 237, ../sass/style.scss */
+  .order:hover {
+    background-color: #e30d0d; }
+
+/* line 242, ../sass/style.scss */
+.modal-content {
+  background-color: #C5E2F4; }
+
+/* line 245, ../sass/style.scss */
+.modal-title {
+  font: 20px "EtelkaMediumProRegular";
+  color: #4a6181; }
+
+/* line 250, ../sass/style.scss */
+.modal-header .close {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  color: #4586C1;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+/* line 264, ../sass/style.scss */
+.modal-header img {
+  margin-bottom: 10px; }
+
+/* line 269, ../sass/style.scss */
+#fields input {
+  display: table;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 60%;
+  border: 2px solid #fec160;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font: 14px "EtelkaMediumProRegular"; }
+  /* line 278, ../sass/style.scss */
+  #fields input:last-child {
+    margin-bottom: 0; }
+
+/* line 284, ../sass/style.scss */
+.modal-footer input {
+  display: table;
+  background: #fec160;
+  border: none;
+  padding: 5px 25px;
+  color: #fff;
+  font: 18px "EtelkaMediumProRegular";
+  margin: auto;
+  border-radius: 5px; }
+  /* line 293, ../sass/style.scss */
+  .modal-footer input:hover {
+    background: #FEAF2F; }
+
+/* line 300, ../sass/style.scss */
+.alert-success h2 {
+  color: #4586C1; }
+
+/*# sourceMappingURL=style.css.map */
