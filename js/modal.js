@@ -1,7 +1,11 @@
   $(function() {
+    $('.order').click(function(){
+      $('.order-form').trigger('reset');
+      $('.form-control-feedback').removeClass('glyphicon-ok').removeClass('glyphicon-remove');
+    });
     //при нажатии на кнопку с id="submit"
     $('#submit').click(function() {
-      //переменная formValid
+          //переменная formValid
       var formValid = true;
       //перебрать все элементы управления input 
       $('input').each(function() {
