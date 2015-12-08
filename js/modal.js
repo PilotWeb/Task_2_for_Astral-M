@@ -22,14 +22,20 @@
         formValid = false;  
       }
     });
+      
     //если форма валидна, то
     if (formValid) {
       //сркыть модальное окно
       $('#basicModal').modal('hide');
       $('.order').hide();
-      $('input').val('');
+      $('.close')
       //отобразить сообщение об успехе
       $('#success-alert').removeClass('hidden');
     }
+      
   });
+  $('.close').click(function(){
+         $('.order-form').trigger('reset');
+        $('.form-control-feedback').removeClass('glyphicon-ok').removeClass('glyphicon-remove');
+      });
 });
